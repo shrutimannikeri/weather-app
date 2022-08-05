@@ -47,7 +47,7 @@ ul.pagination {
     /* background: green; */
 }
 .modal-dialog {
-    top: 59px;
+    top: 48px;
     border-radius: 0;
     margin: 0;
     background: none;
@@ -56,13 +56,13 @@ ul.pagination {
     background: #b22ac5c2;
 }
 h5#staticBackdropLabel {
-    color: #002d80;
+    color: #fff;
     font-weight: 900;
     font-size: 16px;
 }
 p.modal-subtitl {
     font-size: 15px;
-    color: #000;
+    color: #0f22c0;
     font-weight: 600;
     text-align: left;
     border-bottom: 1px dotted black;
@@ -72,9 +72,13 @@ ul.list {
     list-style: square;
     font-size: 16px;
     font-weight: 500;
+    color: #fff;
 }
 .modal-content {
     transition-duration: 4s;
     transition-timing-function: ease;
     transition-delay: 3s;
+}
+li.list-text {
+    line-height: 1;
 }
