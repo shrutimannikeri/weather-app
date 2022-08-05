@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.card-body{
+    font-size: 13px;
+}
+img.card-img-top {
+    height: 169px;
+    margin-bottom: 1em;
+}
+.card {
+    background: linear-gradient(90deg, rgba(199,185,152,1) 35%, rgba(69,86,84,1) 100%);
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 0 2px 2px #80808030;
+}
+.card-header {
+    background: #000;
+    color: #ffffffb3;
+    padding: 7px;
+}
+p.card-text {
+    color: #fff;
+    margin-bottom: 3px;
+}
+h1.title-header {
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    font-weight: 900;
+}
+ul.pagination {
+    margin-top: 1em !important;
+}
+.card-body {
+    text-align: center;
+    position: relative;
+}
+.fullmodels{
+    background: #ffffff7a;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    /* background: green; */
+}
+.modal-dialog {
+    top: 59px;
+    border-radius: 0;
+    margin: 0;
+    background: none;
+}
+.modal-content {
+    background: #b22ac5c2;
+}
+h5#staticBackdropLabel {
+    color: #002d80;
+    font-weight: 900;
+    font-size: 16px;
+}
+p.modal-subtitl {
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 1px dotted black;
+}
+ul.list {
+    text-align: left;
+    list-style: square;
+    font-size: 16px;
+    font-weight: 500;
+}
+.modal-content {
+    transition-duration: 4s;
+    transition-timing-function: ease;
+    transition-delay: 3s;
+}
