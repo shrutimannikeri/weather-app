@@ -168,7 +168,7 @@ let displayWeather = (weatherInfo,id) => {
         <li class="list-text"><label>Humidity </label>: ${weatherInfo[0].main["humidity"]}</li>
         <li class="list-text"><label>Temperature </label>: ${weatherInfo[0].main["temp"]}</li>
         <li class="list-text"><label>Pressure </label>: ${weatherInfo[0].main["pressure"]}</li>
-        <li class="list-text"><label>Wind Info </label>: deg: ${weatherInfo[0].wind["deg"]} gust: ${weatherInfo[0].wind["gust"]}</p>
+        <li class="list-text"><label>Wind Info </label>: deg: ${weatherInfo[0].wind["deg"]} gust: ${weatherInfo[0].wind["gust"]}</li>
         <li class="list-text"><label>Clouds </label>: ${weatherInfo[0].weather[0].description}</li>
         </ul>
       </div>
