@@ -53,7 +53,7 @@ ul.pagination {
     background: none;
 }
 .modal-content {
-    background: #b22ac5c2;
+    background: #183777eb;
 }
 h5#staticBackdropLabel {
     color: #fff;
@@ -62,7 +62,7 @@ h5#staticBackdropLabel {
 }
 p.modal-subtitl {
     font-size: 15px;
-    color: #0f22c0;
+    color: #0fc022;
     font-weight: 600;
     text-align: left;
     border-bottom: 1px dotted black;
